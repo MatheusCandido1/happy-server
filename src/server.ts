@@ -4,7 +4,7 @@ import './database/connection';
 
 const app = express();
 
-app.get('/users', (request, response) => {
+app.post('/orphanages', (request, response) => {
     console.log('ui')
 });
 
